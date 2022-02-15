@@ -1,0 +1,44 @@
+{
+  "name": "frontend-code-test",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test:cypress": "npx cypress open",
+    "type-check": "tsc"
+  },
+  "dependencies": {
+    "@date-io/luxon": "^2.13.1",
+    "@emotion/react": "^11.5.0",
+    "@emotion/styled": "^11.3.0",
+    "@hookform/resolvers": "^2.8.8",
+    "@material-ui/core": "^4.11.3",
+    "@mui/material": "^5.1.0",
+    "axios": "^0.24.0",
+    "next": "^10.1.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.19.5",
+    "react-material-ui-form-validator": "^3.0.0",
+    "sweetalert": "^2.1.2",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.41",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "cypress": "^7.1.0",
+    "eslint": "^7.24.0",
+    "eslint-config-prettier": "^8.2.0",
+    "eslint-plugin-cypress": "^2.11.2",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.2.1",
+    "typescript": "4.2.4"
+  },
+  "license": "ISC"
+}
